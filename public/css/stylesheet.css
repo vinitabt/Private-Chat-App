@@ -12,9 +12,10 @@
 
 
 body {
-	background-color: #f0f1f3;
-	color:#667073;
-	font: 16px/1.3 'Arial',sans-serif;
+	//background-color: #f0f1f3;
+	background-image: url("bg.jpg");
+	color:#000A0E;
+	font: 17px/1.3 'Arial',sans-serif;
 }
 
 
@@ -28,13 +29,13 @@ body {
 
 
 .homebanner {
-	height: 120px;
-	background-color: #3c4446;
+	height: 70px;
+	background-color: #3c4445;
 }
 
 .homebannertext {
 	text-align:center;
-	padding-top: 35px;
+	padding-top: 20px;
 	font-family: 'Open Sans Condensed',serif;
 	font-weight: bold;
 	color:white;
@@ -154,10 +155,10 @@ body {
 	margin:0px auto;
 	width: 700px;
 	height: 400px;
-	background-color: #ffffff;
+	background-color: #3f92da00;
 	border-radius: 3px;
 	box-shadow:0px 3px 3px #e3e4e6;
-	color: #637277;
+	color: #1546EF;
 }
 .connected h2 {
 	padding-top: 20px;
@@ -170,7 +171,7 @@ body {
 #creatorImage {
 	float: left;
 	margin: 90px 0 0 140px;
-	width: 100px;
+	width: 00px;
 	height: 100px;
 	border-radius: 50%;
 }
@@ -178,14 +179,14 @@ body {
 #yourName {
 	float:left;
 	padding-left:10px;
-	width: 150px;
+	width: 200px;
 	height: 30px;
 	border-radius: 3px;
 	box-shadow:0px 3px 3px #e3e4e6;
-	background-color: #f0f1f3;
-	border: 1px solid #d1d1d1;
+	background-color: #e2e1e9;
+	border: 1px solid #030202;
 	border-radius: 3px;
-	box-shadow:0px 3px 3px #e3e4e6;
+	box-shadow:0px 3px 3px #9f1057;
 	margin-bottom:20px;
 	overflow: hidden;
 }
@@ -197,10 +198,10 @@ body {
 	height: 30px;
 	border-radius: 3px;
 	box-shadow:0px 3px 3px #e3e4e6;
-	background-color: #f0f1f3;
-	border: 1px solid #d1d1d1;
+	background-color: #e1e6ef;
+	border: 1px solid #0f0303;
 	border-radius: 3px;
-	box-shadow:0px 3px 3px #e3e4e6;
+	box-shadow:0px 3px 3px #b41240;
 	margin-bottom:40px;
 }
 
@@ -209,9 +210,9 @@ body {
 	width: 110px;
 	height: 40px;
 	text-align:center;
-	background-color: #73b4d4;
+	background-color: #090d0fcc;
 	border: none;
-	box-shadow: 3px 3px 3px #efedee;
+	box-shadow: 3px 3px 3px #6b093a;
 	border-radius: 2px;
 	color:white;
 	font-weight: bold;
@@ -228,10 +229,10 @@ body {
 	margin:0px auto;
 	width: 700px;
 	height: 400px;
-	background-color: #ffffff;
+	background-color: #e1e0e100;
 	border-radius: 3px;
 	box-shadow:0px 3px 3px #e3e4e6;
-	color: #637277;
+	color: #0D30EF;
 }
 .personinside h2 {
 	padding-top: 20px;
@@ -248,7 +249,7 @@ body {
 #ownerImage {
 	float: left;
 	margin: 90px 0 0 140px;
-	width: 100px;
+	width: 00px;
 	height: 100px;
 	border-radius: 50%;
 }
@@ -256,14 +257,14 @@ body {
 #hisName {
 	float:left;
 	padding-left:10px;
-	width: 150px;
+	width: 200px;
 	height: 30px;
 	border-radius: 3px;
 	box-shadow:0px 3px 3px #e3e4e6;
-	background-color: #f0f1f3;
-	border: 1px solid #d1d1d1;
+	background-color: #d7dff0;
+	border: 1px solid #110101;
 	border-radius: 3px;
-	box-shadow:0px 3px 3px #e3e4e6;
+	box-shadow:0px 3px 3px #1e60e4;
 	margin-bottom:20px;
 }
 
@@ -274,10 +275,10 @@ body {
 	height: 30px;
 	border-radius: 3px;
 	box-shadow:0px 3px 3px #e3e4e6;
-	background-color: #f0f1f3;
-	border: 1px solid #d1d1d1;
+	background-color: #d7dff0;
+	border: 1px solid #110101;
 	border-radius: 3px;
-	box-shadow:0px 3px 3px #e3e4e6;
+	box-shadow:0px 3px 3px  #1e60e4 ;
 	margin-bottom:40px;
 }
 
@@ -286,9 +287,9 @@ body {
 	width: 110px;
 	height: 40px;
 	text-align:center;
-	background-color: #73b4d4;
+	background-color: #04131b;
 	border: none;
-	box-shadow: 3px 3px 3px #efedee;
+	box-shadow: 3px 3px 3px #1133f2;
 	border-radius: 2px;
 	color:white;
 	font-weight: bold;
@@ -464,6 +465,7 @@ body {
 }
 
 .image img {
+	
 	float: left;
 	width: 80px;
 	height: 80px;
@@ -485,6 +487,7 @@ body {
 }
 
 .me {
+
 	clear:both;
 	float:left;
 	margin-bottom:10px;
@@ -510,10 +513,10 @@ body {
 	min-width: 160px;
 	min-height: 10px;
 	max-width: 510px;
-	background-color: #FFF;
+	background-color:#08F9DE80;
 	border-radius: 3px;
-	box-shadow: 0px 3px 3px #E3E4E6;
-	color: #637277;
+	box-shadow: 0px 3px 3px #01060F;
+	color: #0A0A0B;
 	line-height: 1.4;
 	word-wrap: break-word;
 }
@@ -528,10 +531,10 @@ body {
 	min-width: 160px;
 	min-height: 10px;
 	max-width: 510px;
-	background-color: #FFF;
+	background-color: #6CFF0566;
 	border-radius: 3px;
-	box-shadow: 0px 3px 3px #E3E4E6;
-	color: #637277;
+	box-shadow: 0px 3px 3px #01060F;
+	color: #0A0A0B;
 	line-height: 1.4;
 	word-wrap: break-word;
 }
@@ -540,7 +543,7 @@ body {
 	overflow: hidden;
 	display: block;
 	clear: both;
-	padding-top: 7px;
+	padding-top: 8px;
 }
 
 .image i{
@@ -639,7 +642,7 @@ footer {
 
 .chatscreen{
 	display:none;
-	width:700px;
+	width:1000px;
 	margin: 0 auto 200px;
 	overflow:hidden;
 }
